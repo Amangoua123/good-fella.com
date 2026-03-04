@@ -39,9 +39,9 @@ export function Grids() {
   };
 
   return (
-    <div class="grid-cols-12 gap-5 container absolute z-1 opacity-10 inset-0 grid left-1/2 -translate-x-1/2 top-0 h-full w-full">
+    <div className="grid-cols-12 gap-5 w-8xl fixed z-1 opacity-10 inset-0 grid left-1/2 -translate-x-1/2 top-0 h-full">
       {Array.from({ length: 12 }).map((_, i) => (
-        <div key={i} ref={addToRefs} class="bg-gray-300"></div>
+        <div key={i} ref={addToRefs} className="bg-gray-300"></div>
       ))}
     </div>
   );

@@ -3,15 +3,15 @@ import { Menu } from "../header/Menu.jsx";
 
 export function Header() {
   return (
-    <header class="fixed grid bg-bg mt-4 grid-cols-12 z-2 items-center justify-between container left-1/2 -translate-x-1/2 inset-0 text-white h-16 top-0">
-      <div class="col-span-4">
+    <header className="fixed grid bg-bg mt-4 grid-cols-12 z-2 items-center justify-between w-8xl left-1/2 -translate-x-1/2 inset-0 text-white h-16 top-0">
+      <div className="col-span-4">
         <a href="/">
           <svg
             viewBox="0 0 1616.59 529.18"
             xmlns="http://www.w3.org/2000/svg"
             aria-label="Good"
             role="img"
-            class="h-6 w-auto fill-white"
+            className="h-6 w-auto fill-white"
           >
             <path d="M212.88,248.5c-1.92-1.89-3.17-4.57-3.17-8.06V90.87c0-15.24,23.65-15.22,23.65,0v137.74h176.04V13c0-9.05-4.51-13-12.95-13H123.9C77.16,0,46.22,31.1,46.22,78.02l-.03,373.14c0,46.93,30.97,78.02,77.71,78.02h274.81c6.19,0,10.7-4.52,10.7-10.74V252.27H221.51c-3.85,0-6.72-1.51-8.63-3.77ZM233.34,311.59v113.56c0,15.24-23.65,15.22-23.65,0V311.59c0-15.24,23.65-15.22,23.65,0Z"></path>
             <path d="M718.71,0H510.92c-46.74,0-77.71,31.1-77.71,78.02v373.14c0,46.93,30.97,78.02,77.71,78.02h207.79c46.74,0,77.71-31.1,77.71-78.02V78.02C796.42,31.1,765.45,0,718.71,0ZM619.12,424.77c0,15.24-23.65,15.22-23.65,0V106.7c0-15.24,23.65-15.22,23.65,0v318.07Z"></path>
@@ -20,10 +20,10 @@ export function Header() {
           </svg>
         </a>
       </div>
-      <div class="col-span-4 flex justify-center uppercase">
+      <div className="col-span-4 flex justify-center uppercase">
         <Menu />
       </div>
-      <div class="col-span-4 text-right flex justify-end">
+      <div className="col-span-4 text-right flex justify-end">
         <MyButton>Contact</MyButton>
       </div>
     </header>

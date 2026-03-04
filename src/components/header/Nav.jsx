@@ -8,7 +8,7 @@ export function Nav() {
       initial="initial"
       animate="enter"
       exit="exit"
-      class="container bg-bg h-300 w-full fixed left-0 top-18 bottom-20"
+      class="w-8xl bg-bg h-300 fixed left-0 top-18 bottom-20"
     >
       <div className="h-100">Hello Mun</div>
     </motion.div>

@@ -32,6 +32,7 @@ a {
   --font-weight-font-extralight: 200;
   --color-menu: #eee;
   --font-geist-mono: "Geist Mono", monospace;
+  --width-8xl: 85rem;
 }
 
 @layer components {

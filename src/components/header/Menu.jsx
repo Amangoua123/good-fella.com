@@ -7,9 +7,9 @@ export function Menu() {
   return (
     <div
       onClick={() => setButtonState(!buttonState)}
-      class="uppercase text-md cursor-pointer text-menu font-extralight flex gap-3 items-center"
+      className="uppercase text-md cursor-pointer text-menu font-extralight flex gap-3 items-center"
     >
-      <div class="relative w-14 flex justify-center overflow-hidden">
+      <div className="relative w-14 flex justify-center overflow-hidden">
         <motion.span
           className="inline-block"
           transition={{ type: "spring", bounce: 0, duration: 0.3 }}
@@ -21,7 +21,7 @@ export function Menu() {
         <AnimatePresence mode="popLayout">
           {buttonState && (
             <motion.span
-              class="absolute left-1/2 -translate-x-1/2  top-full"
+              className="absolute left-1/2 -translate-x-1/2  top-full"
               transition={{ type: "spring", bounce: 0, duration: 0.3 }}
               initial={{ y: 0, opacity: 1 }}
               animate={{ opacity: 1, top: 0 }}
@@ -33,7 +33,7 @@ export function Menu() {
         </AnimatePresence>
       </div>
 
-      <div class="flex flex-col gap-1">
+      <div className="flex flex-col gap-1">
         <motion.span
           transition={{ type: "spring", bounce: 0, duration: 0.3 }}
           animate={{

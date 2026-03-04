@@ -1,10 +1,12 @@
 export function MyButton() {
   return (
-    <button class="uppercase relative  text-black flex items-center justify-center gap-2">
-      <div class="font-medium text-sm border px-6 py-2 bg-orange">
+    <button className="uppercase relative  text-black flex items-center justify-center gap-1">
+      <div className="font-medium text-sm px-6 h-9 flex items-center bg-orange">
         let's work together
       </div>
-      <div class="py-2 bg-orange px-4 font-extralight text-sm">+</div>
+      <div className="py-2 bg-orange w-9 h-9 flex items-center justify-center font-extralight text-2xl leading-none">
+        +
+      </div>
     </button>
   );
 }
