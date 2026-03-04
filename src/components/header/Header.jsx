@@ -1,9 +1,9 @@
-import { MyButton } from "./Button.jsx";
-import { Menu } from "./Menu.jsx";
+import { MyButton } from "../button/Button.jsx";
+import { Menu } from "../header/Menu.jsx";
 
 export function Header() {
   return (
-    <header class="fixed grid grid-cols-12 z-2 items-center justify-between container left-1/2 -translate-x-1/2 inset-0 text-white h-20 top-0">
+    <header class="fixed grid bg-bg mt-4 grid-cols-12 z-2 items-center justify-between container left-1/2 -translate-x-1/2 inset-0 text-white h-16 top-0">
       <div class="col-span-4">
         <a href="/">
           <svg

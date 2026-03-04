@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
+import { Nav } from "./Nav";
 
 export function Menu() {
   const [buttonState, setButtonState] = useState(false);
@@ -50,6 +51,7 @@ export function Menu() {
           className="bars w-5 bg-white h-0.5"
         ></motion.span>
       </div>
+      <AnimatePresence mode="wait">{buttonState && <Nav />}</AnimatePresence>
     </div>
   );
 }

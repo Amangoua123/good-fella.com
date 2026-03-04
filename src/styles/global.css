@@ -28,6 +28,7 @@ a {
 
 @theme {
   --color-orange: #fd551c;
+  --color-bg: #333333;
   --font-weight-font-extralight: 200;
   --color-menu: #eee;
   --font-geist-mono: "Geist Mono", monospace;
